@@ -60,6 +60,7 @@ class TicTacToe
     end
   end
 
-  def won?
+  def full?
+    board.all? { |index| position_taken?(index) }
   end
 end
