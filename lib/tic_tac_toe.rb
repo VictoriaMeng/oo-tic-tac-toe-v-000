@@ -74,4 +74,7 @@ class TicTacToe
   def full?
     !board.include?(" ")
   end
+
+  def draw?
+  end
 end
