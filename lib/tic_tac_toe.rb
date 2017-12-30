@@ -64,6 +64,8 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.find do |row|
+      row.find do |index|
+      end
     end
   end
 
