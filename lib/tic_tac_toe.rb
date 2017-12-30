@@ -65,8 +65,8 @@ class TicTacToe
   def won?
     WIN_COMBINATIONS.find do |row|
       row.all? do |index|
-        symbol = board[row[0]]
-        board[index] == symbol && symbol != " "
+        winner = board[row[0]]
+        board[index] == winner && winner != " "
       end
     end
   end
