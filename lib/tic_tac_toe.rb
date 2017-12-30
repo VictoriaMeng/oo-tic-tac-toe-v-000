@@ -44,7 +44,7 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
 
-  def move(index)
+  def move(index, current_player)
     board[index] = current_player
   end
 
