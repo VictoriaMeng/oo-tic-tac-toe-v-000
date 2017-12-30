@@ -91,6 +91,6 @@ class TicTacToe
     until over?
       turn
     end
-    
+
   end
 end
