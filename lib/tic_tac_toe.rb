@@ -66,7 +66,7 @@ class TicTacToe
     WIN_COMBINATIONS.find do |row|
       row.all? do |index|
         symbol = row[0]
-        board[index] = 
+        board[index] == symbol && symbol != " "
       end
     end
   end
