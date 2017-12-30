@@ -63,7 +63,8 @@ class TicTacToe
   end
 
   def won?
-    
+    WIN_COMBINATIONS.find do |row|
+    end
   end
 
   def full?
