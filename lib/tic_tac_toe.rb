@@ -56,7 +56,7 @@ class TicTacToe
       display_board
     else
       inputs = gets.strip
-      index = input_to_index
+      index = input_to_index(input)
     end
   end
 end
